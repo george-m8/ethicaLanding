@@ -1,6 +1,7 @@
 :root {
     --red: #a77087; /* Adjust to the brand's specific red from the guideline */
     --white: #ffffff;
+    --dark-grey: #525253;
     --font-primary: 'Museo Sans', sans-serif;
 }
 
@@ -12,6 +13,7 @@
 body {
     margin: 0;
     font-family: var(--font-primary);
+    color: var(--dark-grey);
     background-color: var(--white);
 }
 
