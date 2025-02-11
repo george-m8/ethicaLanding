@@ -7,12 +7,16 @@
 /* Apply a natural box layout model to all elements */
 *, *::before, *::after {
     box-sizing: border-box;
-  }
+}
 
 body {
     margin: 0;
     font-family: var(--font-primary);
     background-color: var(--white);
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: var(--font-primary);
 }
 
 h1 {
